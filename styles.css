@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+#container {
+    background-image: url(https://images.unsplash.com/photo-1576506295286-5cda18df43e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aWNlJTIwY3JlYW18ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+  
+    background-color: rgba(100, 0, 0, 60%);
+    background-blend-mode: multiply;
+    color: rgb(255, 250, 150);
+    background-repeat: repeat-y;
+    background-size: cover;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  
+  #survey-form {
+    background-color: rgba(30, 0, 0, 80%);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  #title, #description {
+    text-align: center;
+  }
+
+  #title {
+    margin-top: 0;
+  }
+  
+  #description {
+    font-style: italic;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    margin: 1.2rem 0;
+  }
+  
+  button {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 250, 150);
+    background: rgb(105, 100, 0);
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 200;
+  }
+  
+  button:hover {
+    background: rgb(70, 150, 0);
+  }
+  
+   textarea {
+    border-radius: 5px;
+    border: none;
+    display: block;
+    min-height: 120px;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  textarea, #dropdown, #email, #number, #name {
+     font-size: 1rem;
+  }
+  
+  #dropdown {
+    border: none;
+    margin: 1.5rem 0;
+    height: 2.2rem;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  #name, #email, #number {
+    display: block;
+    height: 2.2rem;
+    width: 100%;
+  }
+  
+  fieldset > p {
+    margin-bottom: 0;
+  }
+  
+  .input-radio, .input-checkbox {
+    display: inline-block;
+    margin-right: 1rem;
+    min-height: 1rem;
+    min-width: 1rem;
+  }
+  
